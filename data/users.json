@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "name": "James Anderson",
+        "username": "janderson",
+        "email": "james.anderson@example.com",
+        "address": {
+            "street": "Maple Street",
+            "suite": "Apt. 101",
+            "city": "Springfield",
+            "zipcode": "62704",
+            "geo": {
+                "lat": "39.7817",
+                "lng": "-89.6501"
+            }
+        },
+        "phone": "217-555-0199",
+        "website": "andersonfamily.com",
+        "company": {
+            "name": "Anderson Consulting",
+            "catchPhrase": "Innovative business strategies",
+            "bs": "optimize enterprise processes"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Emily Johnson",
+        "username": "ejohnson",
+        "email": "emily.johnson@example.com",
+        "address": {
+            "street": "Oak Avenue",
+            "suite": "Suite 220",
+            "city": "Madison",
+            "zipcode": "53703",
+            "geo": {
+                "lat": "43.0731",
+                "lng": "-89.4012"
+            }
+        },
+        "phone": "608-555-0147",
+        "website": "johnsonservices.net",
+        "company": {
+            "name": "Johnson & Co.",
+            "catchPhrase": "Customer-first digital solutions",
+            "bs": "empower scalable platforms"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "username": "mbrown",
+        "email": "michael.brown@example.com",
+        "address": {
+            "street": "Pine Lane",
+            "suite": "Suite 305",
+            "city": "Denver",
+            "zipcode": "80202",
+            "geo": {
+                "lat": "39.7392",
+                "lng": "-104.9903"
+            }
+        },
+        "phone": "303-555-0133",
+        "website": "brownenterprises.org",
+        "company": {
+            "name": "Brown Enterprises",
+            "catchPhrase": "Building the future of commerce",
+            "bs": "redefine online markets"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sarah Davis",
+        "username": "sdavis",
+        "email": "sarah.davis@example.com",
+        "address": {
+            "street": "Cedar Drive",
+            "suite": "Apt. 410",
+            "city": "Seattle",
+            "zipcode": "98101",
+            "geo": {
+                "lat": "47.6062",
+                "lng": "-122.3321"
+            }
+        },
+        "phone": "206-555-0178",
+        "website": "davistech.io",
+        "company": {
+            "name": "Davis Tech",
+            "catchPhrase": "Technology for everyday life",
+            "bs": "deliver seamless integrations"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Christopher Miller",
+        "username": "cmiller",
+        "email": "chris.miller@example.com",
+        "address": {
+            "street": "Birch Road",
+            "suite": "Suite 512",
+            "city": "Austin",
+            "zipcode": "73301",
+            "geo": {
+                "lat": "30.2672",
+                "lng": "-97.7431"
+            }
+        },
+        "phone": "512-555-0165",
+        "website": "millersolutions.com",
+        "company": {
+            "name": "Miller Solutions",
+            "catchPhrase": "Smart solutions for smart people",
+            "bs": "streamline business workflows"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Olivia Wilson",
+        "username": "owilson",
+        "email": "olivia.wilson@example.com",
+        "address": {
+            "street": "Elm Street",
+            "suite": "Apt. 620",
+            "city": "Boston",
+            "zipcode": "02108",
+            "geo": {
+                "lat": "42.3601",
+                "lng": "-71.0589"
+            }
+        },
+        "phone": "617-555-0184",
+        "website": "wilsoncreative.org",
+        "company": {
+            "name": "Wilson Creative",
+            "catchPhrase": "Designing the future",
+            "bs": "enhance digital experiences"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Daniel Martinez",
+        "username": "dmartinez",
+        "email": "daniel.martinez@example.com",
+        "address": {
+            "street": "Willow Lane",
+            "suite": "Suite 710",
+            "city": "Chicago",
+            "zipcode": "60601",
+            "geo": {
+                "lat": "41.8781",
+                "lng": "-87.6298"
+            }
+        },
+        "phone": "312-555-0122",
+        "website": "martinezgroup.com",
+        "company": {
+            "name": "Martinez Group",
+            "catchPhrase": "Business growth simplified",
+            "bs": "empower enterprise scalability"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Sophia Taylor",
+        "username": "staylor",
+        "email": "sophia.taylor@example.com",
+        "address": {
+            "street": "Chestnut Street",
+            "suite": "Suite 803",
+            "city": "San Francisco",
+            "zipcode": "94102",
+            "geo": {
+                "lat": "37.7749",
+                "lng": "-122.4194"
+            }
+        },
+        "phone": "415-555-0137",
+        "website": "taylorglobal.net",
+        "company": {
+            "name": "Taylor Global",
+            "catchPhrase": "Connecting the world",
+            "bs": "expand digital ecosystems"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Matthew Thomas",
+        "username": "mthomas",
+        "email": "matthew.thomas@example.com",
+        "address": {
+            "street": "Hawthorne Avenue",
+            "suite": "Suite 925",
+            "city": "Phoenix",
+            "zipcode": "85001",
+            "geo": {
+                "lat": "33.4484",
+                "lng": "-112.0740"
+            }
+        },
+        "phone": "602-555-0149",
+        "website": "thomasinnovations.com",
+        "company": {
+            "name": "Thomas Innovations",
+            "catchPhrase": "Innovation without limits",
+            "bs": "drive technological advancement"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Ava Harris",
+        "username": "aharris",
+        "email": "ava.harris@example.com",
+        "address": {
+            "street": "Walnut Street",
+            "suite": "Apt. 1010",
+            "city": "Los Angeles",
+            "zipcode": "90001",
+            "geo": {
+                "lat": "34.0522",
+                "lng": "-118.2437"
+            }
+        },
+        "phone": "213-555-0156",
+        "website": "harrisventures.io",
+        "company": {
+            "name": "Harris Ventures",
+            "catchPhrase": "Investing in tomorrow",
+            "bs": "leverage innovative startups"
+        }
+    }
+]
