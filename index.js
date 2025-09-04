@@ -46,7 +46,7 @@ app.use((err, req, res, next) => {
   res.status(500).send('Что-то сломалось!');
 });
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Сервер запущен на http://localhost:${port}`);
   console.log(`Swagger docs: http://localhost:${port}/api-docs`);
 });
