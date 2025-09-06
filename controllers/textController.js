@@ -1,45 +1,8 @@
-// const path = require('path');
-// const fs = require('fs');
-
-// const MAX_WORDS = 10000;
-// const wordsFile = path.join(__dirname, '..', 'words.json');
-
-// // Функция для случайного выбора n слов из массива (с повторениями)
-// function getRandomWords(wordsArray, count) {
-//   const result = [];
-//   for (let i = 0; i < count; i++) {
-//     const randomIndex = Math.floor(Math.random() * wordsArray.length);
-//     result.push(wordsArray[randomIndex]);
-//   }
-//   return result;
-// }
-
-// exports.getTextByWordCount = (req, res) => {
-//   let count = parseInt(req.params.count);
-//   if (isNaN(count) || count < 1) {
-//     return res.status(400).json({ error: 'Некорректное количество слов' });
-//   }
-//   if (count > MAX_WORDS) count = MAX_WORDS;
-
-//   fs.readFile(wordsFile, 'utf8', (err, data) => {
-//     if (err) {
-//       return res.status(500).json({ error: 'Ошибка чтения словаря' });
-//     }
-
-//     const wordsArray = JSON.parse(data);
-//     const selectedWords = getRandomWords(wordsArray, count);
-//     const text = selectedWords.join(' ');
-
-//     res.json({ wordCount: count, text });
-//   });
-// };
-
-
 const fs = require('fs');
 const path = require('path');
 
 const MAX_WORDS = 10000;
-const wordsFile = path.join(__dirname, '..', 'words.json');
+const wordsFile = path.join(__dirname, '../data', 'words.json');
 
 function getRandomWords(wordsArray, count) {
   const result = [];
